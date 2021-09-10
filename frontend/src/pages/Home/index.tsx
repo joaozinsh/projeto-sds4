@@ -6,8 +6,8 @@ function Home() {
     return (
         <>
             <NavBar />
-            <div className="container">
-                <div className="jumbotron">
+            <div className="container mb-4 bg-light rounded">
+                <div className="jumbotron mx-5 p-5">
                     <h1 className="display-4">DSVendas</h1>
                     <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
                     <hr />

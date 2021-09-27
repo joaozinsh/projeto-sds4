@@ -16,24 +16,18 @@ Esta aplicação consiste em exibir um dashboard de dados sobre vendas, apresent
 ## Back-End
 * Java
 * Spring Boot
-
-  Dependências do Spring Boot
     * Spring Boot Web
     * Spring Data JPA / Hibernate
     * Spring Security
     * H2 Database
     * PostgreSQL Driver
-    
 * Maven
 
 ## Front-End
 * HTML / CSS / JavaScript / TypeScript
 * React
-
-  Libs
-    * React Router DOM
-    * Axios
-    
+  * React Router DOM
+  * Axios 
 * Bootstrap
 * Apex Charts
 
@@ -46,7 +40,7 @@ Esta aplicação consiste em exibir um dashboard de dados sobre vendas, apresent
 ## Back-End
 Pré-requisitos: Java 11
 
-```
+```bash
 # Clonar repositório
 git clone https://github.com/joaozinsh/projeto-sds4.git
 
@@ -55,12 +49,14 @@ cd backend
 
 # Executar o projeto
 ./mvnw spring-boot:run
+
+# O servidor inciará na porta:8080 - acesse http://localhost:8080
 ```
 
 ## Front-End
 Pré-requisitos: npm / yarn
 
-```
+```bash
 # Clonar repositório
 git clone https://github.com/joaozinsh/projeto-sds4.git
 
@@ -72,4 +68,6 @@ npm install
 
 # Executar o projeto
 npm start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```

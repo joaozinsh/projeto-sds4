@@ -12,7 +12,7 @@ Esta aplicação consiste em exibir um dashboard de dados sobre vendas, apresent
 ## Modelo conceitual
 ![Image](https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/sds3-mc.png)
 
-## Tecnologias utilizadas
+# Tecnologias utilizadas
 ## Back-End
 * Java
 * Spring Boot
